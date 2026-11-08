@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+        }
+        /* Custom print styling to match a standard CV paper look */
+        @media print {
+            body {
+                background: white !important;
+            }
+            .cv-container {
+                box-shadow: none !important;
+                margin: 0 !important;
+                border: none !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen py-8 px-4 flex justify-center items-start">
+
+    <!-- Main CV Container -->
+    <div class="cv-container bg-white w-full max-w-[800px] p-8 md:p-12 shadow-md border border-gray-300 text-black">
+
+        <!-- Header -->
+        <header class="text-center mb-6">
+            <h1 class="text-2xl md:text-3xl font-bold tracking-wide uppercase inline-block pb-0.5 border-b-2 border-black">
+                Curriculum Vita
+            </h1>
+        </header>
+
+        <!-- Objective Section -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold underline underline-offset-4 mb-2">Objective:</h2>
+            <p class="text-sm md:text-base leading-relaxed text-gray-900">
+                To replace tip text with your own, just select a line of text and start typing. For best results when selecting text to copy or replace, don't include space to the right of the characters in your selection.
+            </p>
+        </section>
+
+        <!-- Horizontal Divider -->
+        <hr class="border-t border-gray-400 mb-6">
+
+        <!-- Personal Information Section -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold underline underline-offset-4 mb-3">Personal Information:</h2>
+            <ul class="list-disc list-inside space-y-1.5 text-sm md:text-base">
+                <li><span class="font-normal">Name:</span> <span class="inline-block border-b border-dotted border-black w-64 md:w-96 ml-2"></span></li>
+                <li><span class="font-normal">Father Name:</span> <span class="inline-block border-b border-dotted border-black w-56 md:w-80 ml-2"></span></li>
+                <li><span class="font-normal">Age:</span> <span class="inline-block border-b border-dotted border-black w-64 md:w-96 ml-2"></span></li>
+                <li><span class="font-normal">Gender:</span> <span class="inline-block border-b border-dotted border-black w-60 md:w-88 ml-2"></span></li>
+                <li><span class="font-normal">Contact No.:</span> <span class="inline-block border-b border-dotted border-black w-56 md:w-80 ml-2"></span></li>
+                <li><span class="font-normal">Email id:</span> <span class="inline-block border-b border-dotted border-black w-60 md:w-88 ml-2"></span></li>
+            </ul>
+        </section>
+
+        <!-- Horizontal Divider -->
+        <hr class="border-t border-gray-400 mb-6">
+
+        <!-- Education Section -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold underline underline-offset-4 mb-3">Education:</h2>
+            <ul class="list-disc list-inside space-y-2 text-sm md:text-base">
+                <li class="font-normal">
+                    School Name:
+                    <ul class="list-disc list-inside pl-6 space-y-1 mt-1 text-gray-800">
+                        <li class="list-circle">Subjects Name</li>
+                        <li class="list-circle">Subjects Name</li>
+                        <li class="list-circle">Subjects Name</li>
+                    </ul>
+                </li>
+                <li class="font-normal">
+                    College Name:
+                    <ul class="list-disc list-inside pl-6 space-y-1 mt-1 text-gray-800">
+                        <li class="list-circle">Subjects Name</li>
+                        <li class="list-circle">Subjects Name</li>
+                        <li class="list-circle">Subjects Name</li>
+                    </ul>
+                </li>
+                <li class="font-normal">
+                    University Name:
+                    <ul class="list-disc list-inside pl-6 space-y-1 mt-1 text-gray-800">
+                        <li class="list-circle">Subjects Name</li>
+                        <li class="list-circle">Subjects Name</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Horizontal Divider -->
+        <hr class="border-t border-gray-400 mb-6">
+
+        <!-- Favorite Books Section -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold underline underline-offset-4 mb-3">Favorite Books:</h2>
+            <ol class="list-decimal list-inside space-y-1.5 text-sm md:text-base pl-1">
+                <li>Book Name</li>
+                <li>Book Name</li>
+                <li>Book Name</li>
+            </ol>
+        </section>
+
+        <!-- Horizontal Divider -->
+        <hr class="border-t border-gray-400 mb-6">
+
+        <!-- Hobbies Section -->
+        <section class="mb-2">
+            <h2 class="text-lg font-bold underline underline-offset-4 mb-3">Hobbies:</h2>
+            <ol class="list-decimal list-inside space-y-1.5 text-sm md:text-base pl-1">
+                <li>Hobby</li>
+                <li>Hobby</li>
+                <li>Hobby</li>
+            </ol>
+        </section>
+
+    </div>
+
+</body>
+</html>
